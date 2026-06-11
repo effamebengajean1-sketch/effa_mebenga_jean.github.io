@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez NexaStudio pour un devis gratuit. Marketing, infographie, développement web — on vous répond sous 24h.">
+  <title>Contact — NexaStudio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+<div class="cursor"></div>
+<div class="cursor-ring"></div>
+
+<nav>
+  <a href="index.html" class="nav-logo">Nexa<span>Studio</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="a-propos.html">À propos</a></li>
+    <li><a href="contact.html" class="nav-cta">Devis gratuit</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="page-hero">
+  <div class="section-label" style="justify-content:center">On vous écoute</div>
+  <h1>Parlons de<br>votre <em style="font-style:normal;color:var(--accent)">projet</em></h1>
+  <p>Devis gratuit et sans engagement. On vous répond dans les 24 heures ouvrables.</p>
+</div>
+
+<section>
+  <div class="contact-layout reveal">
+    <!-- LEFT -->
+    <div class="contact-info">
+      <h2>Plusieurs façons<br>de nous joindre</h2>
+      <p>Que vous ayez un projet précis ou juste une idée, on est là pour vous guider.</p>
+
+      <div class="contact-item">
+        <div class="contact-item-icon">📧</div>
+        <div class="contact-item-text">
+          <div class="label">Email</div>
+          <div class="value"><a href="mailto:hello@nexastudio.com" style="color:var(--text);text-decoration:none">hello@nexastudio.com</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">📞</div>
+        <div class="contact-item-text">
+          <div class="label">Téléphone & WhatsApp</div>
+          <div class="value"><a href="tel:+237600000000" style="color:var(--text);text-decoration:none">+237 600 000 000</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">📍</div>
+        <div class="contact-item-text">
+          <div class="label">Adresse</div>
+          <div class="value">Yaoundé, Cameroun<br><span style="color:var(--muted);font-size:0.875rem">Bassin du Lac, Imm. Delta, 3ème étage</span></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">🕐</div>
+        <div class="contact-item-text">
+          <div class="label">Horaires</div>
+          <div class="value">Lun–Ven, 8h – 18h<br><span style="color:var(--muted);font-size:0.875rem">Réponse sous 24h garantie</span></div>
+        </div>
+      </div>
+
+      <div style="margin-top:2.5rem;padding:1.5rem;background:rgba(200,255,0,0.06);border:1px solid rgba(200,255,0,0.15);border-radius:var(--radius)">
+        <div style="color:var(--accent);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:500;margin-bottom:0.6rem">Réseaux sociaux</div>
+        <div style="display:flex;gap:0.8rem;flex-wrap:wrap">
+          <a href="#" style="background:var(--card);border:1px solid var(--border);color:var(--muted);padding:0.5rem 1rem;border-radius:100px;text-decoration:none;font-size:0.85rem;transition:all 0.3s">Instagram</a>
+          <a href="#" style="background:var(--card);border:1px solid var(--border);color:var(--muted);padding:0.5rem 1rem;border-radius:100px;text-decoration:none;font-size:0.85rem;transition:all 0.3s">LinkedIn</a>
+          <a href="#" style="background:var(--card);border:1px solid var(--border);color:var(--muted);padding:0.5rem 1rem;border-radius:100px;text-decoration:none;font-size:0.85rem;transition:all 0.3s">Behance</a>
+          <a href="#" style="background:var(--card);border:1px solid var(--border);color:var(--muted);padding:0.5rem 1rem;border-radius:100px;text-decoration:none;font-size:0.85rem;transition:all 0.3s">Twitter/X</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: FORM -->
+    <div>
+      <div class="contact-form">
+        <h3 style="font-family:var(--font-head);font-weight:700;font-size:1.3rem;margin-bottom:0.4rem">Demandez votre devis</h3>
+        <p style="color:var(--muted);font-size:0.875rem;margin-bottom:1.5rem">Gratuit, sans engagement, réponse sous 24h.</p>
+
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom *</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom *</label>
+              <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="jean@entreprise.com" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="tel">Téléphone</label>
+              <input type="tel" id="tel" name="tel" placeholder="+237 600 000 000">
+            </div>
+            <div class="form-group">
+              <label for="entreprise">Entreprise</label>
+              <input type="text" id="entreprise" name="entreprise" placeholder="Nom de votre société">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service souhaité *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Choisissez un service</option>
+              <option value="marketing">Marketing Digital</option>
+              <option value="infographie">Infographie & Design</option>
+              <option value="web">Développement Web</option>
+              <option value="pack">Pack complet (Marketing + Design + Web)</option>
+              <option value="autre">Autre / Je ne sais pas encore</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget approximatif</label>
+            <select id="budget" name="budget">
+              <option value="" disabled selected>Votre budget (optionnel)</option>
+              <option value="50k">Moins de 100 000 FCFA</option>
+              <option value="100-300k">100 000 – 300 000 FCFA</option>
+              <option value="300-500k">300 000 – 500 000 FCFA</option>
+              <option value="500k+">Plus de 500 000 FCFA</option>
+              <option value="nsp">Je ne sais pas encore</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Décrivez votre projet *</label>
+            <textarea id="message" name="message" placeholder="Parlez-nous de votre projet, vos objectifs, votre délai souhaité..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Envoyer ma demande →</button>
+        </form>
+
+        <div class="form-success">
+          <div class="icon">✅</div>
+          <h3 style="font-family:var(--font-head);font-weight:700;margin-bottom:0.5rem">Message envoyé !</h3>
+          <p style="color:var(--muted)">Merci ! On revient vers vous sous 24 heures ouvrables. <br>À très bientôt 👋</p>
+        </div>
+      </div>
+
+      <p style="color:var(--muted);font-size:0.78rem;text-align:center;margin-top:1rem">🔒 Vos données sont confidentielles et ne seront jamais partagées.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background:var(--bg2)">
+  <div class="section-label reveal">Questions fréquentes</div>
+  <h2 class="section-title reveal">FAQ</h2>
+  <div style="max-width:700px;margin:3rem auto 0;display:grid;gap:1rem">
+    <details style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;cursor:pointer" class="reveal">
+      <summary style="font-family:var(--font-head);font-weight:700;font-size:1rem;list-style:none;display:flex;justify-content:space-between;align-items:center">
+        Combien de temps prend la création d'un site web ?
+        <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s">+</span>
+      </summary>
+      <p style="color:var(--muted);font-size:0.875rem;margin-top:1rem">Un site vitrine standard prend 2 à 3 semaines. Un e-commerce entre 4 et 8 semaines. Une application web sur mesure dépend de la complexité et fait l'objet d'un planning détaillé en amont.</p>
+    </details>
+    <details style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;cursor:pointer" class="reveal">
+      <summary style="font-family:var(--font-head);font-weight:700;font-size:1rem;list-style:none;display:flex;justify-content:space-between;align-items:center">
+        Travaillez-vous avec des clients à distance ?
+        <span style="color:var(--accent);font-size:1.2rem">+</span>
+      </summary>
+      <p style="color:var(--muted);font-size:0.875rem;margin-top:1rem">Absolument ! Nous collaborons avec des clients dans toute l'Afrique francophone et au-delà. Tous nos échanges se font par visio, email et outils collaboratifs partagés. La distance n'est pas un frein.</p>
+    </details>
+    <details style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;cursor:pointer" class="reveal">
+      <summary style="font-family:var(--font-head);font-weight:700;font-size:1rem;list-style:none;display:flex;justify-content:space-between;align-items:center">
+        Proposez-vous un suivi après livraison ?
+        <span style="color:var(--accent);font-size:1.2rem">+</span>
+      </summary>
+      <p style="color:var(--muted);font-size:0.875rem;margin-top:1rem">Oui, tous nos projets web incluent 3 mois de support technique gratuit. Pour le marketing, nos contrats mensuels intègrent un suivi et des ajustements continus basés sur les performances.</p>
+    </details>
+    <details style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;cursor:pointer" class="reveal">
+      <summary style="font-family:var(--font-head);font-weight:700;font-size:1rem;list-style:none;display:flex;justify-content:space-between;align-items:center">
+        Comment se déroule le paiement ?
+        <span style="color:var(--accent);font-size:1.2rem">+</span>
+      </summary>
+      <p style="color:var(--muted);font-size:0.875rem;margin-top:1rem">Pour les projets one-shot : 40% à la signature, 30% à mi-parcours, 30% à la livraison. Pour les contrats mensuels : facturation en début de mois. Mobile Money, virement bancaire et carte acceptés.</p>
+    </details>
+  </div>
+</section>
+
+<div class="cta-band">
+  <div>
+    <h2>On n'attend plus<br>que vous !</h2>
+    <p>Devis gratuit en 24h.</p>
+  </div>
+  <a href="#contactForm" class="btn-dark" onclick="document.getElementById('prenom').focus()">Remplir le formulaire →</a>
+</div>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo">Nexa<span>Studio</span></a>
+      <p>Agence digitale full-service. On conçoit des expériences qui font la différence.</p>
+      <div class="social-links" style="margin-top:1.2rem">
+        <a href="#" class="social-link">In</a><a href="#" class="social-link">Li</a>
+        <a href="#" class="social-link">Tw</a><a href="#" class="social-link">Be</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Services</h4><ul>
+      <li><a href="services.html#marketing">Marketing Digital</a></li>
+      <li><a href="services.html#infographie">Infographie</a></li>
+      <li><a href="services.html#devweb">Développement Web</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Agence</h4><ul>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Contact</h4><ul>
+      <li><a href="mailto:hello@nexastudio.com">hello@nexastudio.com</a></li>
+      <li><a href="tel:+237600000000">+237 600 000 000</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom"><span>© 2025 NexaStudio. Tous droits réservés.</span></div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
